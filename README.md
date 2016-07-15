@@ -31,13 +31,13 @@ Para a realização do desafio, decidi fazer um mini framework MVC que segue a e
 - .htaccess - direciona qualquer requisição para o arquivo index.php
 
 ##### Instalação
-- Clone o projeto para o diretório index do apache server 
+- Clone/Copie o projeto para o diretório index do apache server
 - Importe dump.sql que se encontra na pasta sql para o database MYSQL
 ```sh
 mysql -u username -p database_name < dump.sql
 ```
-- Altere o arquivo config/database.json para configurar os parametros do database.
-- Para executar os testes é exigido no minimo o php 5.6 ou superior.
+- Altere o arquivo config/database.json para configurar os parâmetros do database.
+- Para executar os testes é exigido no mínimo o php 5.6 ou superior.
 - Instalando o PhpUnit (Exige o php 5.6 ou superior).
 ```sh
 $ wget https://phar.phpunit.de/phpunit.phar
@@ -47,6 +47,6 @@ $ phpunit --version
 ```
 - Execute os testes com o seguinte comando
 ```sh
-phpunit -debug --colors diretorio-raiz-do-framework/tests
+phpunit -debug --colors diretório-raiz-do-projeto/tests
 ```
 Obrigado.
