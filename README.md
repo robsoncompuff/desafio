@@ -22,8 +22,8 @@ Para a realização do desafio, decidi fazer um mini framework MVC que segue a e
 
 - app - Pasta que contem as views, controllers, models e assets (css,js,svg,img)
 - build - Pasta que no caso de deploy teria os arquivos minified de cs, js, html e etc
-- config - Pasta que contém arquivo de configuração de url, database e etc.
-- core - Pasta que contém a classes cores do framework.
+- config - Pasta que contém arquivo de configuração de url, database, versão do framework e etc em arquivo .json.
+- core - Pasta que contém a classes cores para o funcionamento do framework.
 - sql - Pasta que contém o dump.sql para o banco de dados
 - tests - Pasta que contém os testes unitários
 - utils - Pasta que contém classes com métodos de apoio.
@@ -33,6 +33,10 @@ Para a realização do desafio, decidi fazer um mini framework MVC que segue a e
 ##### Instalação
 - Clone o projeto para o diretório index do apache server 
 - Importe dump.sql que se encontra na pasta sql para o database MYSQL
+```sh
+mysql -u username -p database_name < dump.sql
+```
+- Altere o arquivo config/database.json para configurar os parametros do database.
 - Para executar os testes é exigido no minimo o php 5.6 ou superior.
 - Instalando o PhpUnit (Exige o php 5.6 ou superior).
 ```sh
