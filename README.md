@@ -33,7 +33,8 @@ Para a realização do desafio, decidi fazer um mini framework MVC que segue a e
 ##### Instalação
 - Clone o projeto para o diretório index do apache server 
 - Importe dump.sql que se encontra na pasta sql para o database MYSQL
-- Para executar os teste deve se ter o php 5.6 ou superior para instalar o PhpUnit
+- Para executar os testes é exigido no minimo o php 5.6 ou superior.
+- Instalando o PhpUnit (Exige o php 5.6 ou superior).
 ```sh
 $ wget https://phar.phpunit.de/phpunit.phar
 $ chmod +x phpunit.phar
